@@ -1,0 +1,65 @@
+/* CSS Document */
+body
+{
+float:left;
+width:100%;
+margin:10px auto;
+text-align:left;
+}
+.wrapper
+{
+background:#fff;
+margin:0px auto;
+width:94%;
+float:left;
+padding:1%;
+margin-left:1%;
+border:1px solid #333;
+}
+.wrapper h1
+{
+font-size:25px;
+}
+.lft
+{
+float:left;
+width:50%;
+}
+.rit
+{
+width:50%;
+float:right;
+text-align:right;
+}
+table
+{
+width:100%;
+margin:0px auto;
+float:left;
+clear:both;
+}
+input[type='text'],input[type='password'], textarea
+{
+border:1px solid #4285F4;
+padding:8px 10px;
+width:80%;
+margin:10px;
+}
+.clear
+{
+float:left;
+clear:both;
+height:30px;
+width:100%;
+}
+input[type='submit'],input[type='button']
+{
+background:#4285F4;
+color:#fff;
+padding:7px 20px;
+border:none;
+}
+a
+{
+text-decoration:none;
+}

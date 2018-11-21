@@ -1,0 +1,16 @@
+{% include 'header.html' %}
+
+<table align="left" cellpadding="10" cellspacing="0" border="1" width="100%">
+<tr><td>Title</td><td>Description</td><td>Action</td></tr>
+         
+         {% for row in data %}
+            <tr>
+               <td> {{ row[0]}}</td>
+               <td>{{row[1]}}</td>
+               <td><a href='/editnote/{{row[2]}}'>Edit</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='/delnote/{{row[2]}}'>Delete</a></td>	
+            </tr>
+         {% endfor %}
+      </table>
+
+{% include 'footer.html' %}
+
